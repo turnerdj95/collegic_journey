@@ -1,0 +1,55 @@
+/* Hero Section Styles */
+
+.hero-section {
+    background-image: url("../Backgrounds/fries-hero-bg.jpg");
+    padding: 100px;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-section > .top-heading {
+    background-color: #11122b;
+    color: #cbcbcb;
+    width: 290px;
+    border-radius: 10px;
+    padding: 2px 25px;
+    text-align: center;
+}
+
+.hero-section > .bottom-heading {
+    background-color: #cea135;
+    color: #11122b;
+    width: 115px;
+    padding: 2px 20px;
+    margin-top: 12px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Feature Section Styles */
+.feature-section {
+    height: 400px;
+    background-image: url("../Backgrounds/fries-multiply-bg.jpg");
+    background-color: #cea135;
+    border-top: 10px solid white;
+    color: #11122b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ubuntu Condensed", sans-serif;
+}
+.feature-section > .column-wrapper {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.feature-section > .column-wrapper > .column {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
